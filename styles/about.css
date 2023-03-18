@@ -23,7 +23,6 @@ li > p {
     position: relative;
     z-index: 0;
     padding: 10px;
-    border: 1px solid black;
 }
 
 article > h1 {
@@ -37,7 +36,9 @@ article {
 }
 
 #button {
-    position: sticky;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 #main-body {
